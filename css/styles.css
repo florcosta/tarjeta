@@ -1,0 +1,99 @@
+html {
+  font-family: "Red Hat Display", sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-size: cover;
+  background-image: url(../images/pattern-background-desktop.svg);
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.tarjeta {
+  background-color: white;
+  border-radius: 10px;
+  width: 400px;
+  height: 640px;
+}
+
+.muñeco {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: hsl(223, 47%, 23%);
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.texto {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.sombra {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin: 25px;
+  border-radius: 10px;
+}
+
+h6 {
+  color: hsl(223, 47%, 23%);
+  font-size: 16px;
+}
+
+.anual {
+  margin-left: 20px;
+}
+
+a {
+  font-size: 15px;
+  color: hsl(245, 75%, 52%);
+  margin-left: auto;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+button {
+  padding: 15px;
+  border: 0px;
+}
+
+button.proceed {
+  color: hsl(225, 100%, 98%);
+  background-color: hsl(245, 75%, 52%);
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
